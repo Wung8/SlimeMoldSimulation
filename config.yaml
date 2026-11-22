@@ -1,0 +1,104 @@
+configs:
+  - name: default
+    trail_color:
+      - [255, 255, 255]
+    n_agents: 40000
+    n_species: 1
+    gridsize: [1200, 1925]
+    sensor_distance: 3
+    sensor_size: 3
+    sensor_angle_spacing: 0.78539816339
+    turn_speed: 0.20943951024
+    diffusion_speed: 0.3
+    evaporation_speed: 2
+    spawn_type: "fill"
+  
+  - name: big
+    trail_color:
+      - [107, 209, 255]
+    n_agents: 20000
+    n_species: 1
+    gridsize: [600, 980]
+    sensor_distance: 3
+    sensor_size: 3
+    sensor_angle_spacing: 0.78539816339
+    turn_speed: 0.20943951024
+    diffusion_speed: 0.8
+    evaporation_speed: 1
+    spawn_type: "fill"
+
+  - name: multi_species
+    trail_color:
+      - [250, 150, 0]
+      - [255, 255, 0]
+      - [255, 0, 255]  
+    n_agents: 20000
+    n_species: 2
+    gridsize: [600, 980]
+    sensor_distance: 4
+    sensor_size: 5
+    sensor_angle_spacing: 0.78539816339
+    turn_speed: 0.15
+    diffusion_speed: 0.5
+    evaporation_speed: 1
+    spawn_type: "fill"
+  
+  - name: default
+    trail_color:
+      - [255, 255, 255]
+    n_agents: 10000
+    n_species: 1
+    gridsize: [800, 800]
+    sensor_distance: 3
+    sensor_size: 3
+    sensor_angle_spacing: 0.78539816339
+    turn_speed: 0.20943951024
+    diffusion_speed: 0.2
+    evaporation_speed: 3
+    spawn_type: "no_fill"
+  
+  - name: default
+    trail_color:
+      - [255, 255, 255]
+    n_agents: 10
+    n_species: 1
+    gridsize: [40, 40]
+    sensor_distance: 3
+    sensor_size: 3
+    sensor_angle_spacing: 0.78539816339
+    turn_speed: 0.20943951024
+    diffusion_speed: 0.3
+    evaporation_speed: 4
+    spawn_type: "fill"
+  
+  - name: multi_species
+    trail_color:
+      - [250, 150, 0]
+      - [255, 255, 0]
+      - [255, 0, 255]  
+    n_agents: 20000
+    n_species: 3
+    gridsize: [800, 800]
+    sensor_distance: 4
+    sensor_size: 5
+    sensor_angle_spacing: 0.78539816339
+    turn_speed: 0.15
+    diffusion_speed: 0.3
+    evaporation_speed: 1
+    spawn_type: "fill"
+
+  - name: multi_species
+    trail_color:
+      - [255, 192, 91]
+      - [177, 145, 230]
+    n_agents: 50000
+    n_species: 2
+    gridsize: [800, 800]
+    sensor_distance: 4
+    sensor_size: 5
+    sensor_angle_spacing: 0.78539816339
+    turn_speed: 0.3
+    diffusion_speed: 0.9
+    evaporation_speed: 0.5
+    spawn_type: "no_fill"
+
